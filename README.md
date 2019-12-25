@@ -71,7 +71,7 @@ The format option is optional, since the data type defines a default formatting 
 
 To compile a C file using Historia, use the `#include "equah/historia.h"` at the beginning of the file.
 
-The file can then be compiled by adding the `-I ./<path_to_src> -x c ./<path_to_src>/equah/historia.c` to the `gcc` command where `<path_to_src>` is the path to the (`/src/`)[] directory.
+The file can then be compiled by adding the `-I ./<path_to_src> -x c ./<path_to_src>/equah/historia.c` to the `gcc` command where `<path_to_src>` is the path to the [`/src/`](https://github.com/TheEquah/Historia-c/tree/master/src/) directory.
 
 It will probably look something like `gcc -I ./Historia-c/src -x c ./Historia-c/src/equah/historia.c -x c ./main.c -o main.o`.
 
